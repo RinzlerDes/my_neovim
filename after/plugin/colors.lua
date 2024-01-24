@@ -1,7 +1,7 @@
 function ColorStuff(color)
     colors = {"tron", "catppuccino", "gruvbox", "tokyonight", "ayu", "rose-pine", "kanagawa", "tokyodark", "monokai", "sonokai", "nightfly", "oxocarbon", "cyberdream"} 
 
-	vim.cmd.colorscheme(colors[12])
+	vim.cmd.colorscheme(colors[11])
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "none"})
 	vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none"})
